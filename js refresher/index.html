@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            console.log('This is a function')
+        }
+        let a ={
+            name : "sajid",
+            age : 47,
+            gender:"diverse"
+        }
+        console.log(a.name);
+        
+        const helloworld = ()=> {
+            console.log("This is arrow function")
+        }
+        const clickmefunction = ()=>{
+            alert("button is clicked");
+        }
+        document.addEventListener("click", function click(){
+           let conf= confirm("h1 is clicked") 
+           console.log(conf)
+        })
+    </script>
+</head>
+<body>
+    <h1>I am learning Js</h1>
+    <button onclick="clickmefunction()">click me</button>
+</body>
+</html>
